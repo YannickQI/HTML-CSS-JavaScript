@@ -1,0 +1,27 @@
+Base da Lógica de Programação
+
+Operadores Aritméticos
+
++ soma
+- subtração
+* multiplicação
+/ divisão
+% resto da divisão (módulo)
+** exponenciação
+
+Operadores Relacionais
+
+== igual
+!= diferente
+=== idêntico
+!== não idêntico
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+
+Operadores Lógicos
+
+&& and
+|| or
+! not

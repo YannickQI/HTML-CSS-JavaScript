@@ -1,0 +1,30 @@
+Java Script via Navegador (F12)
+
+var numero = Number(prompt("Degite um numero: "))
+for(let i=0; i<=10; i++){
+console.log(numero + "x" + i + "=" +(numero * i))
+}
+
+var n1 = Number( prompt("nota 1:"))
+var n2 = Number( prompt("nota 2:"))
+var result = n1 + n2
+alert("Resultado: " + result)
+
+var clima = confirm("Está frio?")
+if(clima) {
+    alert("Então é inverno!")
+} else {
+    var primavera = confirm("Mas está muito quente?")
+    if(primavera) {
+    alert("Então é verão!")
+    }else{
+    alert("Então é primavera!")
+    }
+}
+
+var clima = confirm("Está frio?")
+if(clima) {
+    alert("Então é inverno!")
+} else {
+    alert("Deve ser verão!")
+}

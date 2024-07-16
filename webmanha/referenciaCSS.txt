@@ -1,0 +1,5 @@
+REFERENCIAS (#) (.) PARA ESTILIZAÇÃO PASTA CSS
+
+(#) usa-se para referenciar ID
+
+(.) usa-se para referenciar CLASSE

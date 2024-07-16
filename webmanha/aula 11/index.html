@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tela de Login </title>
+</head>
+<body>
+
+    <main>
+
+        <h1>LOGIN</h1>
+
+        <form action="#login" method="get">
+
+            <div class="cont">
+                <label for="usuario" class="contLabel"> USUÁRIO </label>
+                <input type="text" name="usuario" id="usuario" class="contInput" placeholder="Usuário" maxlength="20" minlength="3" required>
+            </div>
+
+            <br>
+
+            <div class="user">
+                <label for="user" class="userLabel"> SENHA </label>
+                <input type="password" name="senha" id="senha" class="senhaInput" placeholder="mínimo 6 caracteres">
+                <small id="show" onclick="showHide()">✔</small>
+            </div>
+
+            <br>
+
+            <div class="check">
+                <label for="save"> Mantenha-me conectado </label>
+                <input type="checkbox" name="save" id="save">
+            </div>
+
+            <br>
+
+                <input id="input3" type="submit" value="Entrar">
+
+            <br><br>
+
+                <a href="#resgate"> Esqueceu a senha? </a>
+
+            <br><br>
+
+        </form>
+    </main>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

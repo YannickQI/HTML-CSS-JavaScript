@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9</title>
+</head>
+
+<body>
+
+    <i><h1 ondblclick="alert('Teste Rasta...')">Jah Rastafari!</h1></i>
+
+    <i><h1 id="t2">Rasta don't work for no CIA</h1></i>
+
+    <i><h1 id="texto">...</h1></i>
+
+    <script>
+        var contador = 0
+        var texto = document.getElementById("texto")
+        var titulo = document.getElementById("t2")
+        titulo.addEventListener("click", function(){
+            contador++
+            console.log(contador)
+            texto.innerHTML = contador
+            if(contador == 10) {
+                alert("pare de clicar!")
+                contador = 0
+            }
+        })
+    </script>
+
+
+    
+</body>
+
+</html>

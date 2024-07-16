@@ -1,0 +1,81 @@
+h3 {
+
+    background-color: tan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: #111111;
+
+}
+
+#h31 {
+    text-align: left;
+    color: #111111;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#h32 {
+    text-align: center;
+    color: #111111;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#h33 {
+    text-align: right;
+    color: #111111;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h3-inline {
+    display: inline-block;
+}
+
+#boxh3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+
+}
+
+thead {
+    background-color: #d8dbb0;
+    color: #111111;
+    font-size: 20pt;
+    font-style: italic;
+
+}
+
+tbody {
+    background-color: #d8dbb0;
+    color: #111111;
+}
+
+.unidades, .item, .preco {
+    text-align: center;
+    padding: 10px;
+}
+
+figure {
+    background-color: orange;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+img {
+    width: 150px;
+}
+
+#box-img {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,63 @@
+body {
+
+    background-color: tan;
+    border-style: double;
+    padding: 1%;
+}
+
+h1 {
+
+    background-color: gold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: #111111;
+    border-style: double;
+
+}
+
+.labelcss {
+
+    text-align: left;
+    color: #111111;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    width: 200%;
+
+}
+
+#nome, #email, #nasc, #quant, #fone, #senha, #seleção, #biografia {
+
+    text-align: left;
+    color: #000000;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    background-color: darkgoldenrod;
+    border-style: double;
+    font-style: italic;
+    width: 100%;
+
+}
+
+#label1 {
+
+    color: red;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+}
+
+#display {
+
+    text-align: left;
+    color: #000000;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    background-color: darkgoldenrod;
+    border-style: double;
+    font-style: italic;
+
+}

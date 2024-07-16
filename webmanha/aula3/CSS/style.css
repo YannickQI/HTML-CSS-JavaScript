@@ -1,0 +1,59 @@
+html{
+    background-color: #ffefd5;
+}
+
+p:hover {
+    background-color: blanchedalmond;
+    cursor: grab;
+    transition: 0.5s;
+    text-shadow: 5px 5px 4px;
+}
+
+h6:hover {
+    background-color: blanchedalmond;
+    cursor: grab;
+    transition: 0.5s;
+    text-shadow: 5px 5px 4px;
+
+
+}
+
+h5:hover {
+    background-color: blanchedalmond;
+    cursor: grab;
+    transition: 0.5s;
+    text-shadow: 5px 5px 4px;
+
+}
+
+h4:hover {
+    background-color: blanchedalmond;
+    cursor: grab;
+    transition: 0.5s;
+    text-shadow: 5px 5px 4px;
+
+}
+
+h3:hover {
+    background-color: blanchedalmond;
+    cursor: grab;
+    transition: 0.5s;
+    text-shadow: 5px 5px 4px;
+
+}
+
+h2:hover {
+    background-color: blanchedalmond;
+    cursor: grab;
+    transition: 0.5s;
+    text-shadow: 5px 5px 4px;
+
+}
+
+h1:hover {
+    background-color: blanchedalmond;
+    cursor: grab;
+    transition: 0.5s;
+    text-shadow: 5px 5px 4px;
+
+}
